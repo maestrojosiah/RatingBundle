@@ -14,6 +14,24 @@ Install bundle with `Composer` dependency manager first by running the command:
 
 `$ composer req oachoor/rating-bundle`
 
+### Using this cloned repo
+```
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/maestrojosiah/RatingBundle",
+            "no-api": true
+        }
+    ]
+    "require": {
+        "oachoor/rating-bundle": "dev-master",
+    },
+}
+
+```
+Then `composer req oachoor/rating-bundle:dev-master`
+
 ### Add routes
 
 ``` yaml
